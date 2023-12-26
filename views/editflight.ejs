@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  
+    <h1>editflight</h1>
+    <br>
+    <div class="editflight">
+
+    <h2>Please enter the following details </h2>
+ 
+ <form action="/api/flight/updateflight/<%=query%>" method="post"> 
+
+    
+    <input type="text" placeholder="Airline_Compeny_Id" name = "Airline_Compeny_Id" required>
+    <br>
+    <input type="text" placeholder="Origine_Country_Id" name = "Origine_Country_Id" required>
+    <br>
+    <input type="text" placeholder="destination_Country_Id" name = "destination_Country_Id" required>
+    <br>
+    <input type="tel" placeholder="Departure_Time" name = "Departure_Time" required>
+    <br>
+     <input type="text" placeholder="Landing_Time" name = "Landing_Time" required>
+     <br>
+       <input type="text" placeholder="Remaining_Tickets" name = "Remaining_Tickets" required>
+       <br>
+
+       <input type="submit" value="save">
+
+</form>
+</div>
+</body>
+</html>

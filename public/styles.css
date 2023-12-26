@@ -1,0 +1,115 @@
+/*css home page*/
+
+
+
+#home{
+    
+color: #000;
+
+text-align:center;
+
+margin: top 25px; ;
+
+font-size: 50px;
+
+font-weight: bold;
+
+
+}
+
+.imagethehome{
+
+    margin-bottom: auto;
+    
+    font-display: 200px;
+}
+
+.linktopages{
+
+    
+    margin-left: 250px;
+
+   color: #000;
+}
+
+/*css flights */
+
+#bd{
+
+    text-align: right;
+
+}
+
+
+#fl{
+
+text-align: center;
+
+font-size: 70px;
+}
+
+.flights
+{
+    margin-top: 100px;
+margin-left: 250px;
+
+}
+
+
+
+table,tr,th,td{
+
+    
+    text-align: center;
+    font-size: large;
+    border: 0.1px solid black;
+    width: 70pc;
+    height: 5pc; 
+}
+
+
+
+/*css customer*/
+
+.customer{
+
+    text-align: center;
+}
+
+.details{
+
+    text-align: center;
+    height: 25px;
+}
+
+/*css page update flights*/
+
+
+.editflight{
+
+    margin-top: 300;
+    margin-left: 300px;
+}
+
+
+/*css page addflight*/
+
+.add{
+    
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="styles.css" >
+
+
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="bd">בסיעתא דשמיא</h1>
+
+    <h1 id="fl">flights</h1>
+
+
+   <div class="flights">
+
+   
+
+         <!-- <% if (typeof flights !== 'undefined' && flights) { %>  -->
+
+    <table>
+        <thead>
+
+        <tr>
+            <th>flights Id</th>
+            <th>Airline compeny</th>
+            <th>Origine Country</th>
+            <th>Destination Country</th>
+            <th>Time destination</th>
+            <th>Time departs</th>
+            <th>Remaining Tickets</th>
+        
+        </tr>
+        </thead>
+        <tbody>  
+           
+        <% flights.forEach((flight) => {  %>
+        <tr>
+            <td><%= flight.Id %></td>
+            <td><%= flight.Name %></td>
+            <td><%= flight.depurture%></td>
+            <td><%= flight.arrival%></td>
+            <td><%= flight.Departure_Time%></td>
+            <td><%= flight.Landing_Time%></td>
+            <td><%= flight.Remaining_Tickets%></td>
+            
+        </tr>
+
+
+        <% }) %>
+
+</tbody>
+
+    </table>
+
+</div>
+       
+        <% } else {%>
+                   <h3>there is no flights to show</h3> 
+            <% } %> 
+ 
+</body>
+
+</html>

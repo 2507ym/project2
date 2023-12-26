@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <br>
+    <h1 class="customer"> Customer registration </h1>
+    
+    <br>
+    <br>
+   
+    <div class="details">
+
+        <h2>Please enter the following details </h2>
+        
+        <form action="/api/Customers/addcustomer" method="post">
+
+            <input type="text" placeholder="First_name" name = "First_name" required>
+            <br>
+            <input type="text" placeholder="last name" name = "last_name" required>
+            <br>
+            <input type="text" placeholder="Address" name = "Address" required>
+            <br>
+            <input type="tel" placeholder="phone_no" name = "phone_no" required>
+            <br>
+
+            <input type="text" placeholder="Credit_card_no" name = "Credit_card_no" required>
+            <br>
+
+            <input type="text" placeholder="User_name" name = "User_name" required>
+            <br>
+
+             <input type="text" placeholder="password" name = "password" required>
+             <br>
+
+             <input type="submit" value="submit">
+
+     </form>
+
+     <br>
+
+                         
+
+     
+
+</body>
+</html>
